@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Katalog restoran lengkap">
+  <meta name="theme-color" content="#A20A0A"/>
+  
+  <link rel="manifest" href="./app.webmanifest" />
+  
+  <!---- WEB APP MANIEFST -->
+  <link rel="apple-touch-icon" href="../public/icons/icon-192x192.png">
+  <link rel="icon" href="./favicon.png">
+  
+  <title>RESTOPEDIA</title>
+</head>
+
+<body>
+  
+  <header>
+    <a href="#restaurantlist" class="skip-link">Menuju main content</a>
+    <div class="topbar">
+      <a id="hamburger" href="#" aria-label="navigation-menu">☰</a>
+      <div class="webname">
+        <h1>Restopedia~</h1>
+      </div>
+      <div class="webmenu">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#/favorite">Favorite</a></li>
+          <li><a href="https://www.instagram.com/wiwiilin/">About Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <nav id="drawer">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="#/favorite">Favorite</a></li>
+        <li><a href="https://www.instagram.com/wiwiilin/">About Us</a></li>
+      </ul>
+    </nav>
+    <div class="jumbotron">
+      <!--<img src="images/heros/hero-image_2.jpg" alt="jumbotron photo">-->
+      <picture>
+        <!-- <source type="image/webp" srcset="images/heros/hero-image_2.webp"> -->
+        <source type="image/jpeg" media="(max-width: 600px)" srcset="./images/hero-image_2-small.jpg">
+        <img class="img-element" src="images/hero-image_2-large.jpg" alt="jumbotron photo">
+      </picture> 
+    </div>
+  </header>
+  
+  <main id="content" tabindex="0"></main>
+    
+  <footer>
+    <h4>Copyright © 2022 - Restopedia</h4>
+  </footer>
+
+</body>
+</html>
