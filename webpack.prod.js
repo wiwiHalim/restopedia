@@ -54,6 +54,9 @@ module.exports = merge(common, {
       swDest: './sw.bundle.js',
     }),
     new CleanWebpackPlugin(),
-    new BundleAnalyzerPlugin(),
+    new BundleAnalyzerPlugin({
+      analyzerMode: 'static',
+      openAnalyzer: false,
+    }),
   ],
 });
